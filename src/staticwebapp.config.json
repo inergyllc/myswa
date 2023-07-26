@@ -23,17 +23,12 @@
       "rewrite": "/.auth/logout"
     },
     {
-      "route": "/admin/*",
+      "route": "/index2.html",
       "allowedRoles": ["authenticated"]
     },
     {
       "route": "/*",
       "allowedRoles": ["anonymous"]
-    },
-
-    {
-      "route": "/src/admin/*",
-      "allowedRoles": ["authenticated"]
     }
   ],
   "navigationFallback": {
