@@ -13,10 +13,6 @@
       "allowedRoles": ["anonymous"]
     },
     {
-      "route": "/admin/*",
-      "allowedRoles": ["authenticated"]
-    },
-    {
       "route": "/login",
       "allowedRoles": ["anonymous"],
       "rewrite": "/.auth/login/aadb2c"
@@ -27,41 +23,16 @@
       "rewrite": "/.auth/logout"
     },
     {
-      "route": "/.auth/login/aad",
-      "allowedRoles": ["anonymous", "authenticated"],
-      "statusCode": 404
-    },
-    {
-      "route": "/.auth/login/apple",
-      "allowedRoles": ["anonymous", "authenticated"],
-      "statusCode": 404
-    },
-    {
-      "route": "/.auth/login/b2c",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/.auth/login/facebook",
-      "allowedRoles": ["anonymous", "authenticated"],
-      "statusCode": 404
-    },
-    {
-      "route": "/.auth/login/github",
-      "allowedRoles": ["anonymous", "authenticated"],
-      "statusCode": 404
-    },
-    {
-      "route": "/.auth/login/google",
-      "allowedRoles": ["anonyous", "authenticated"],
-      "statusCode": 404
-    },
-    {
-      "route": "/.auth/login/twitter",
-      "allowedRoles": ["anonymous", "authenticated"],
-      "statusCode": 404
+      "route": "/admin/*",
+      "allowedRoles": ["authenticated"]
     },
     {
       "route": "/*",
+      "allowedRoles": ["anonymous"]
+    },
+
+    {
+      "route": "/src/admin/*",
       "allowedRoles": ["authenticated"]
     }
   ],
