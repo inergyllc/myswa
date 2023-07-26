@@ -80,5 +80,9 @@
         }
       }
     }
+  },
+  "mimeTypes": {
+    ".json": "text/json",
+    ".css": "text/css"
   }
 }
