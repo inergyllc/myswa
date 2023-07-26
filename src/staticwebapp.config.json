@@ -23,6 +23,10 @@
       "rewrite": "/.auth/logout"
     },
     {
+      "route": "/admin/auth.html",
+      "allowedRoles": ["authenticated"]
+    },
+    {
       "route": "/index2.html",
       "allowedRoles": ["authenticated"]
     },
