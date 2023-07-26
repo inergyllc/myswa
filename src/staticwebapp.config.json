@@ -19,7 +19,7 @@
     },
     {
       "route": "/logout",
-      "allowedRoles": ["authenticated"],
+      "allowedRoles": ["anonymous"],
       "rewrite": "/.auth/logout"
     },
     {
@@ -38,7 +38,7 @@
   "responseOverrides": {
     "401": {
       "statusCode": 302,
-      "redirect": "/login"
+      "rewrite": "/login"
     }
   },
   "auth": {
