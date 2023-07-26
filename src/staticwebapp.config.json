@@ -23,15 +23,15 @@
       "rewrite": "/.auth/logout"
     },
     {
-      "route": "/index2.html",
-      "allowedRoles": ["authenticated"]
-    },
-    {
       "route": "/src/index2.html",
       "allowedRoles": ["authenticated"]
     },
     {
       "route": "/*",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/src/*",
       "allowedRoles": ["anonymous"]
     }
   ],
