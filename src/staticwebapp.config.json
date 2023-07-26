@@ -51,7 +51,7 @@
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/css/*", "/img/*", "/js/*"]
+    "exclude": ["/css/*", "/img/*", "/js/*", "*.css", "*.js", "*.json"]
   },
   "responseOverrides": {
     "401": {
