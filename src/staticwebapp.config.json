@@ -5,6 +5,14 @@
       "allowedRoles": ["anonymous"]
     },
     {
+      "route": "/login/*.css",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "*.css",
+      "allowedRoles": ["anonymous"]
+    },
+    {
       "route": "/login",
       "allowedRoles": ["anonymous"],
       "rewrite": "/.auth/login/b2c"
