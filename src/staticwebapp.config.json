@@ -23,7 +23,7 @@
       "rewrite": "/.auth/logout"
     },
     {
-      "route": "/src/index2.html",
+      "route": "/index2.html",
       "allowedRoles": ["authenticated"]
     },
     {
