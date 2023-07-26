@@ -19,7 +19,7 @@
     {
       "route": "/login",
       "allowedRoles": ["anonymous"],
-      "rewrite": "/.auth/login/b2c"
+      "rewrite": "/.auth/login/aadb2c"
     },
     {
       "route": "/logout",
