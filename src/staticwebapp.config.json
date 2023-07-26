@@ -13,6 +13,10 @@
       "allowedRoles": ["anonymous"]
     },
     {
+      "route": "/admin/*",
+      "allowedRoles": ["authenticated"]
+    },
+    {
       "route": "/login",
       "allowedRoles": ["anonymous"],
       "rewrite": "/.auth/login/b2c"
