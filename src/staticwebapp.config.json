@@ -1,6 +1,10 @@
 {
   "routes": [
     {
+      "route": "/css/*.css",
+      "allowedRoles": ["anonymous"]
+    },
+    {
       "route": "/login",
       "allowedRoles": ["anonymous"],
       "rewrite": "/.auth/login/b2c"
