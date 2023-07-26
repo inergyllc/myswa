@@ -51,7 +51,7 @@
               "clientSecretSettingName": "AADB2C_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://OilWrxB2cTenant.b2clogin.com/OilWrxB2cTenant.onmicrosoft.com/B2C_1_myswa_signin_signup/v2.0/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://OilWrxB2cTenant.b2clogin.com/OilWrxB2cTenant.onmicrosoft.com/B2C_1_myswa_signup_signin2/v2.0/.well-known/openid-configuration"
             }
           },
           "login": {
