@@ -27,6 +27,10 @@
       "allowedRoles": ["authenticated"]
     },
     {
+      "route": "/src/index2.html",
+      "allowedRoles": ["authenticated"]
+    },
+    {
       "route": "/*",
       "allowedRoles": ["anonymous"]
     }
@@ -38,7 +42,7 @@
   "responseOverrides": {
     "401": {
       "statusCode": 302,
-      "rewrite": "/login"
+      "redirect": "/login"
     }
   },
   "auth": {
